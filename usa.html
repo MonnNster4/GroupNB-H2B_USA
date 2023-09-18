@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Groupe NB Group Immigration</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins:ital,wght@0,900;1,600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,900;1,600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <style>
+        .header{
+            font-family: 'Inter', sans-serif;
+    text-align: center;
+    /* margin-right: 8rem; */
+    color: white;
+    letter-spacing: 0.05em;
+    font-size: 34px;
+    font-weight: 600;
+    background-color: #0000004f;
+        }
+        .pt-5 {
+    padding-top: 0 !important;
+        }
+        .mt-5 {
+            margin-top: 0 !important;
+        }
+
+        .container-data{
+            background-attachment: fixed;
+            max-width: inherit;
+            background-size: 100% 100%;     
+            height: auto;
+        }
+
+        .content{
+            color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #000000d4;
+        }
+
+        .header_name{
+            color: white;
+            text-shadow: 4px 1px 4px black;
+        }
+
+        .header_col{
+            text-align: center;
+            font-size: 11px;
+            text-shadow: 4px 1px 4px black;
+        }
+
+        .data{
+           
+    color: white;
+    text-shadow: 4px 1px 4px black;
+    font-size: 20px;
+    text-align: justify;
+    padding: 2rem;
+    margin-top: 0rem;
+    background-color: #000000de;
+    border-radius: 2rem;
+
+        }
+       
+     
+        
+    
+    </style>
+    <body>
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top p-0 logodata" style="background-color: black; height: 120px;">
+            <a href="https://groupnb.ca/" style="    margin-left: 3rem;">
+                <img class="logo1" src="https://groupnb.ca/wp-content/uploads/2022/02/groupeNB_logo_effect15.gif" alt="Groupe NB">
+            </a>
+            <button
+                class="navbar-toggler toggler-example toggle1"
+                style="    margin-right: 1rem;color: rgb(245 243 243 / 55%);"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent1"
+                aria-controls="navbarSupportedContent1"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                onclick="View()"
+            >
+                <span class="dark-blue-text">
+                    <i class="fas fa-bars fa-1x"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                <div class="navlines">
+                    <a href="https://groupnb.ca/">HOME</a>
+                    <a href="https://groupnb.ca/about-us/">ABOUT US</a>
+                    <div id="reccontainer">
+                        <a
+                            href="https://groupnb.ca/recruitment/"
+                            id="demo"
+                            data-toggle="dropdown"
+                            class="recdata"
+                        >RECRUITMENT</a>
+                        <ul class="rec" id="reclink">
+                            <li>
+                                <a href="https://groupnb.ca/recruitment/#operations" class="reca">OPERATIONS</a>
+                            </li>
+                            <li>
+                                <a href="https://groupnb.ca/recruitment/#transport" class="reca">TRANSPORT</a>
+                            </li>
+                            <li>
+                                <a href="https://groupnb.ca/recruitment/#technical" class="reca">TECHNICAL</a>
+                            </li>
+                            <li>
+                                <a href="https://groupnb.ca/recruitment/#executives" class="reca">EXECUTIVES</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="https://groupnb.ca/group-nb-lumping-division/">LUMPING</a>
+                    <a href="https://groupnb.ca/international-employees/">INTERNATIONAL EMPLOYEES</a>
+                    <a href="https://groupnb.ca/blog/">BLOG</a>
+                    <a href="https://groupnb.ca/contact-us/">CONTACT US</a>
+                    <a href="https://monnnster4.github.io/immigration/">IMMIGRATION</a>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+        <!-- Projects Start -->
+        <div class="container-data" style="background-image: url('img/flag-usa5.png');background-repeat: no-repeat;">
+            <div class="content">
+                <h1 class="header_name">H-2B Visa Process, Non-Agricultural Foreign Nationals Program</h1>
+                <span class="header_col">
+                    <i>
+                        This is an outline of the H2B program, and its stipulations and timeline expected. Group NB
+                and our Legal Team handle each part of the process and are here to give updates every step
+                of the way.
+                    </i>
+                </span>
+            </div>
+            <div class="sidenav">
+                <div class="sidenav--test">
+                    <li class="active--about" onClick="View(`0`)"><a href="#sidenav0">About</a></li>
+                    <li onClick="View(`1`)"><a href="#sidenav1">Temporary Needs</a></li>
+                    <li onClick="View(`2`)"><a href="#sidenav2">WHAT IS A PWD</a></li>
+                    <li onClick="View(`3`)"><a href="#sidenav3" >MAJOR STEPS IN DOL H2B VISA</a></li>
+                    <li onClick="View(`4`)"><a href="#sidenav4" >SUCCESSFUL RECEIVE H2B</a></li>
+                    <li onClick="View(`5`)"><a href="#sidenav5" >HOW AND WHEN TO APPLY</a></li>
+                    <li onClick="View(`6`)"><a href="#sidenav8" >WHAT HAPPENS NEXT</a></li>
+                    <li onClick="View(`7`)"><a href="#sidenav9" >CONTACT US</a><li></li>
+                </div>
+                <div class="sidenav--text" style="margin: 2rem;" id="sidenav0">
+                    <p class="data">
+                        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; The H-2B program allows employers to hire nonimmigrants temporarily. The process starts with the employer applying for a temporary labor certification from the Department of Labor (DOL). The employer must adverse and recruit for the job to show that no U.S. workers are available. The USCIS and the Department of State handle the visas. The employer must offer a wage that equals or exceeds the highest of the prevailing wage, applicable Federal minimum wage, the State minimum wage, or local minimum wage. The employer applicant must establish that their need for non-agricultural services or labor is temporary in nature, regardless of whether the underlying job is permanent or temporary.
+                    </p>
+                </div>
+                <div class="sidenav--text" style="margin: 2rem;" id="sidenav1">
+                    <div class="data">
+                        <h4 style="color: white;">
+                            Temporary need must be established as one of the following:
+                        </h4>
+                        <ul>
+                            <li>
+                                One-time occurrence;
+                            </li>
+                            <li>
+                                Seasonal need;
+                            </li>
+                            <li>
+                                Peak load need; or
+                            </li>
+                            <li>
+                                Intermittent need.
+                            </li>
+                            <li>
+                                Employers must request and obtain a Prevailing Wage Determination (PWD) from the OFLC National Prevailing Wage Center before filing an H-2 B Job Order with the State Workforce Agency (SWA).
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sidenav--text2" style="margin: 2rem;" id="sidenav2">
+                    <p class="data">
+                        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; A prevailing wage determination is a process of finding out the minimum wage and location. It is done by the Department of Labor to protect the domestic labor market from unfair completion by foreign workers. It is required for U.S. employers who want to hire foreign workers through the PERM labor certification process.
+                    </p>
+                </div>
+                <div class="sidenav--text" style="margin: 2rem;" id="sidenav3">
+                    <div class="data">
+                        <h3>
+                            STEP 1:
+                        </h3>
+                        <li>
+                            Employer obtains a prevailing wage of the  job opportunity in the local area of employment.
+                        </li>
+                        <h3>
+                            STEP 2:
+                        </h3>
+                        <li>
+                            Employer files and obtains an H-2B temporary labor certification following recruitment of U.S workers for the job opportunity.
+                        </li>
+                        <h3>
+                            STEP 3:
+                        </h3>
+                        <li>
+                            Employer files I-129 petition for H-2B worker with appropriate USCIS Service Center
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="sidenav--text" style="margin: 2rem;" id="sidenav4">
+                <div class="data4">
+                    <p>
+                        <i>How to successfully receive an H2B:</i>
+                    </p>
+                    <p>To issue an H-2B certification to an employer, the U.S. Department of Labor (Department) must determine that:</p>
+                    <ol>
+                        <li>
+                            There are not sufficient U.S. workers who are qualified and who will be available to perform the temporary services or labor for which an employer desires to hire foreign workers; and
+                        </li>
+                        <li>
+                            The employment of H-2B workers will not adversely affect the wages and working conditions of similarly employed U.S. workers.
+                        </li>
+                    </ol>
+                    <p>
+                        To participate in the H-2B program, an applicant must:
+                    </p>
+                    <ul>
+                        <li>
+                            There are not sufficient U.S. workers who are qualified and who will be available to perform the temporary services or labor for which an employer desires to hire foreign workers; and
+                        </li>
+                        <li>
+                            The employment of H-2B workers will not adversely affect the wages and working conditions of similarly employed U.S. workers.
+                        </li>
+                    </ul>
+                    <p>
+                        The employer's job opportunity (opportunities) must be:
+                    </p>
+                    <ul>
+                        <li>
+                            The employer's job opportunity (opportunities) must be:
+                        </li>
+                        <li>
+                            Full-time (i.e., 35 or more hours per week); and
+                        </li>
+                        <li>
+                            Non-agricultural employment within a specified area(s) of intended employment.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sidenav--text" style="margin: 2rem;" id="sidenav5">
+                <div class="data">
+                    <p>
+                        <b>How and When to apply</b>
+                    </p>
+                    <p>Prior to filing a petition with DHS' U.S. Citizenship and Immigration Services (USCIS), an employer must obtain an approved temporary labor certification from the Department:</p>
+                    <p>
+                        <b>New Applicants</b>
+                    </p>
+                    <ol>
+                        <li>
+                            Register - 150-120 calendar days before the date of need will be required.
+                        </li>
+                        <li>
+                            Obtain a Prevailing Wage Determination (PWD) - at least 60 calendar days before it is needed.
+                        </li>
+                        <li>
+                            File a job order and H-2B application - 90 to 75 days before the date of need.
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="sidenav--text" style="margin: 2rem;" id="sidenav6">
+                <div class="data6">
+                    <p>
+                        <b>What Happens Next</b>
+                    </p>
+                    <ul>
+                        <li>
+                            The SWA reviews the job order for compliance with program requirements as soon as possible but no later than six business days after receipt.
+                        </li>
+                        <li>
+                            The Chicago NPC reviews the H-2B application and job order for compliance with program requirements within seven business days of receipt.
+                        </li>
+                        <li>
+                            Within seven business days of receipt of the application, the Chicago NPC will notify the employer in wring of the decision to either accept (Noce of Acceptance) or not accept (Noce of Deficiency) the employer's application and/or job order.
+                        </li>
+                        <li>
+                            Within 14 calendar days from the Noce of Acceptance being issued, the employer must follow the instructions provided in the Noce of Acceptance and conduct recruitment.
+                        </li>
+                    </ul>
+                    <p>The final determination will be sent electronically to the employer and Group NB’s legal team.</p>
+                </div>
+            </div>
+            <div class="sidenav--text" style="margin: 2rem;" id="sidenav7">
+                <div class="data7">
+                    <p class="data7--p">
+                        <b>Email Us Today</b>
+                    </p>
+                    <input
+                        class="form-control border-0  py-3 ps-4 pe-5 nameusa"
+                        type="text"
+                        style="height: 32px; width: 500px;"
+                        placeholder="Name*"
+                    >
+                    <br>
+                    <input
+                        class="form-control border-0 py-3 ps-4 pe-5 emailusa"
+                        type="text"
+                        style="    height: 32px; width: 500px;"
+                        placeholder="Email*"
+                    >
+                    <br>
+                    <textarea
+                        name="message"
+                        id="message"
+                        cols="200"
+                        rows="5"
+                        placeholder="Messages*"
+                        style="width: 500px; height: 100px;"
+                    ></textarea>
+                    <br>
+                    <button id="sub" class="button-usa" style="     margin-top: 2rem; margin-right: 10px; ">Submit</button>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container fullfooter">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0 footer--groupnb">
+                            &copy;
+                            <a class="border-bottom" href="#">Groupe NB Group</a>
+                            , All Right Reserved.
+                        </div>
+                        <a class="btn btn-outline-light btn-social" href="https://twitter.com/GroupNBCan" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/GroupNB.INT/" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/groupnb_recruitment/" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/company/group-nb/mycompany/?viewAsMember=true" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        <a class="border-bottom" href="https://htmlcodex.com"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+    <div
+        id="mymodal"
+        class="modal"
+        style="    top: 20% !important;"
+        tabindex="-1"
+    >
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalName">Labour Market Impact Assessment (LMIA)</h5>
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                    ></button>
+                </div>
+                <div class="modal-body">
+                    <p id="modalContent">A Labour Market Impact Assessment (LMIA) is a document that an employer in Canada may need to get before hiring a foreign worker. A positive LMIA will show that there is a need for a foreign worker to fill the job. It will also show that no Canadian worker or permanent resident is available to do the job.</p>
+                </div>
+                <div class="modal-footer"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top">
+        <i class="bi bi-arrow-up"></i>
+    </a>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script> 
+    hide()
+    $('#sidenav0').show()
+
+document.getElementById("reccontainer").onmouseover = function() {mouseOver()};
+document.getElementById("reccontainer").onmouseout = function() {mouseOut()};
+
+
+
+
+
+
+function mouseOver() {
+    $(".rec").show()
+}
+
+function mouseOut() {
+    $(".rec").hide()
+}
+
+
+    function View(){
+      var  data = localStorage.getItem("view")
+
+        if (data == null || data == ""){
+            localStorage.setItem("view", "data")
+            $('#navbarSupportedContent1').css('display', 'block')
+        } else{
+            localStorage.removeItem("view")
+            $('#navbarSupportedContent1').css('display', 'none')
+        }
+      
+    }
+    
+
+
+    function hide() {
+
+$("#sidenav0").hide()
+
+$("#sidenav1").hide()
+
+$("#sidenav2").hide()
+
+$("#sidenav3").hide()
+
+$("#sidenav4").hide()
+
+$("#sidenav5").hide()
+
+$("#sidenav6").hide()
+
+$("#sidenav7").hide()
+
+}
+
+
+
+var a = document.querySelectorAll(".sidenav--test a");
+        for (var i = 0, length = a.length; i < length; i++) {
+            a[i].onclick = function () {
+                var b = document.querySelector(".sidenav--test li.active--about");
+                if (b) b.classList.remove("active--about");
+                this.parentNode.classList.add('active--about');
+            };
+        }
+
+
+function View(data) {
+
+if (data == 0) {
+
+    hide()
+
+    $("#sidenav0").show()  
+
+
+
+
+} else if (data == 1) {
+
+    hide()
+
+    $("#sidenav1").show()
+
+}
+
+else if (data == 2) {
+
+    hide()
+
+    $("#sidenav2").show()
+
+}
+
+else if (data == 3) {
+
+    hide()
+
+    $("#sidenav3").show()
+
+}
+
+else if (data == 4) {
+
+    hide()
+
+    $("#sidenav4").show()
+
+}
+
+else if (data == 5) {
+
+    hide()
+
+    $("#sidenav5").show()
+
+}
+
+else if (data == 6) {
+
+    hide()
+
+    $("#sidenav6").show()
+
+}
+else if (data == 7) {
+
+hide()
+
+$("#sidenav7").show()
+
+}
+
+
+}
+
+    </script>
+</body>
+</html>
