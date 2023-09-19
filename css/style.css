@@ -664,6 +664,7 @@
     width: 111px !important;
     height: 111px !important;
     margin: 0 !important;
+
   }
 
   .row {
@@ -1326,6 +1327,10 @@ p.data7--p {
   list-style-type: none;
 }
 
+
+button.navbar-toggler.toggler-example.toggle1 {
+  margin-left: 1px;
+}
 
 
 
